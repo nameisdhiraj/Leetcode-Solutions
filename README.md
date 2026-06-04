@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1306-jump-game-iii](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/1306-jump-game-iii) |
+| [1380-lucky-numbers-in-a-matrix](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [2126-destroying-asteroids](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2540-minimum-common-value](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/2540-minimum-common-value) |
@@ -53,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1306-jump-game-iii](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/1306-jump-game-iii) |
+## Matrix
+|  |
+| ------- |
+| [1380-lucky-numbers-in-a-matrix](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/1380-lucky-numbers-in-a-matrix) |
 <!---LeetCode Topics End-->
