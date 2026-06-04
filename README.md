@@ -58,4 +58,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/1380-lucky-numbers-in-a-matrix) |
+## Math
+|  |
+| ------- |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+## Enumeration
+|  |
+| ------- |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/nameisdhiraj/Leetcode-Solutions/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 <!---LeetCode Topics End-->
