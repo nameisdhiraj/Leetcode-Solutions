@@ -1,29 +1,26 @@
 class Solution {
 
-    private int waviness(int x) {
-        String s = Integer.toString(x);
+    // Method to find Wavieness
+    static int findWavieness(int num){
+        String s = Integer.toString(num);
+        int score = 0;
+        if(s.length() < 3) return 0;
+        for(int i = 1; i < s.length() - 1; i++){
+            // checking if the number has peak
+            if(s.charAt(i - 1) < s.charAt(i) && s.charAt(i + 1) < s.charAt(i)) score++;
 
-        int cnt = 0;
-
-        for (int i = 1; i < s.length() - 1; i++) {
-            char cur = s.charAt(i);
-
-            if ((cur > s.charAt(i - 1) && cur > s.charAt(i + 1)) ||
-                (cur < s.charAt(i - 1) && cur < s.charAt(i + 1))) {
-                cnt++;
-            }
+            // checking if the number has valley
+            if(s.charAt(i - 1) > s.charAt(i) && s.charAt(i + 1) > s.charAt(i)) score++;
         }
-
-        return cnt;
+        return score;
     }
 
+
     public int totalWaviness(int num1, int num2) {
-        int ans = 0;
-
-        for (int x = num1; x <= num2; x++) {
-            ans += waviness(x);
+        int score = 0;
+        for(int num = num1; num <= num2; num++){
+            score += findWavieness(num);
         }
-
-        return ans;
+        return score;
     }
 }
